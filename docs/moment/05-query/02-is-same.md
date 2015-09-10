@@ -10,7 +10,7 @@ signature: |
 Check if a moment is the same as another moment.
 
 ```javascript
-moment('2010-10-20').isSame('2010-10-20'); // true
+moment('10-09-2015').isSame(moment(new Date())); // true
 ```
 
 If you want to limit the granularity to a unit other than milliseconds, pass the units as the second parameter.
